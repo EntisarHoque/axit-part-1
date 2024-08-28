@@ -173,7 +173,16 @@ header .navbar .nav-item .nav-link {
   background: #ff8b38;
   color: white;
 }
-
+.tab-section .tab-content .btns {
+  margin-top: 40px;
+}
+.tab-section .tab-content .btn-info {
+  background: #ff8b38;
+  border: 2px solid white;
+  border-radius: 0px;
+  padding: 10px 25px;
+  color: white;
+}
 .tab-left .tab-content h4 {
   padding-bottom: 50px;
 }
