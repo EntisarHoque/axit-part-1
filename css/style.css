@@ -38,6 +38,9 @@ header .navbar .nav-item {
 header .navbar .nav-item .nav-link {
   color: white;
 }
+header .navbar .navbar-nav {
+  margin-top: 15px;
+}
 /* Header Section Code End */
 /* Banner Section Code Start */
 .banner-section {
@@ -80,6 +83,12 @@ header .navbar .nav-item .nav-link {
   border-radius: 0px;
   padding: 8px 30px;
   color: white;
+  transition: 0.5s;
+}
+.banner-section .banner-left .btn-info:hover {
+  background: #ff8b38;
+  border: 2px solid #ff8b38;
+  transition: 0.5s;
 }
 .banner-section .banner-right .card {
   width: 68%;
@@ -114,6 +123,7 @@ header .navbar .nav-item .nav-link {
   padding: 13px 0px;
   background: #ff9b51;
 }
+
 /* Banner Section Code End */
 
 /* Social Section Code Start */
@@ -141,6 +151,11 @@ header .navbar .nav-item .nav-link {
 .icons1 ul li a i {
   color: #cccccc;
   font-size: 48px;
+  transition: 0.5s;
+}
+.icons1 ul li a i:hover {
+  color: #ff8b38;
+  transition: 0.5s;
 }
 /* Social Section Code End */
 /* Tab Section code Start */
@@ -159,6 +174,7 @@ header .navbar .nav-item .nav-link {
   margin-bottom: 1px;
   width: 115px;
   height: 115px;
+  transition: 0.7s;
 }
 .tab-left .nav .first {
   border-radius: 0.375rem 0.375rem 0 0;
@@ -172,6 +188,7 @@ header .navbar .nav-item .nav-link {
 .tab-left .nav .active {
   background: #ff8b38;
   color: white;
+  transition: 0.5s;
 }
 .tab-section .tab-content .btns {
   margin-top: 40px;
@@ -182,6 +199,11 @@ header .navbar .nav-item .nav-link {
   border-radius: 0px;
   padding: 10px 25px;
   color: white;
+  transition: 0.5s;
+}
+.tab-section .tab-content .btn-info:hover {
+  background: #333333;
+  transition: 0.7s;
 }
 .tab-left .tab-content h4 {
   padding-bottom: 50px;
